@@ -1,29 +1,27 @@
-# React frontend dependencies and build
+# React frontend
 /frontend/node_modules
 /frontend/build
 
-# Laravel backend dependencies and build
-/vendor
-/storage
-/public/storage
-/.env
-/.env.*
-/bootstrap/cache
+# Laravel backend
+/backend/vendor
+/backend/storage
+/backend/public/storage
+/backend/.env
+/backend/.env.*
 
-# Root dependencies and build
-/node_modules
-/build
-
-# Misc
-.DS_Store
-
-# Logs
+# Logs and lock files
+*.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 laravel.log
 
-# Editor
-.vscode
-.idea
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Swap files
 *.swp
