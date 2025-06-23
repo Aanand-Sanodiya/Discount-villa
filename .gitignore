@@ -1,0 +1,29 @@
+# React frontend dependencies and build
+/frontend/node_modules
+/frontend/build
+
+# Laravel backend dependencies and build
+/vendor
+/storage
+/public/storage
+/.env
+/.env.*
+/bootstrap/cache
+
+# Root dependencies and build
+/node_modules
+/build
+
+# Misc
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+laravel.log
+
+# Editor
+.vscode
+.idea
+*.swp
